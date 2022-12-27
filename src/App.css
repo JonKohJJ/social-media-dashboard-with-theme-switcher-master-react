@@ -10,7 +10,9 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     line-height: 1.5;
+    letter-spacing: .5px;
     background-color: var(--color-dark-bg);
+    color: var(--color-dark-text-blue)
 }
 
 /* variables - COLOUR */
@@ -20,10 +22,10 @@ body{
 
     --color-facebook: hsl(208, 92%, 53%);
     --color-twitter: hsl(203, 89%, 53%);
-    --color-instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+    --color-instagram: linear-gradient(hsl(37, 97%, 70%),hsl(329, 70%, 58%));
     --color-youtube: hsl(348, 97%, 39%);
 
-    --color-toggle-dark: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+    --color-toggle-dark: linear-gradient(hsl(210, 78%, 56%),hsl(146, 68%, 55%));
     --color-toggle-light: hsl(230, 22%, 74%);
 
     --color-dark-bg: hsl(230, 17%, 14%);
@@ -35,4 +37,93 @@ body{
     --color-light-card-bg: hsl(227, 47%, 96%);
     --color-light-text-blue:hsl(228, 12%, 44%);
     --color-light-text-darker-blue: hsl(230, 17%, 14%);
+}
+
+.container{
+    /* outline: .5px solid grey; */
+    width: 90%;
+    max-width: 1100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 0;
+}
+
+.line{
+    border: 1px solid var(--color-dark-text-blue);
+    margin: 15px 0;
+}
+
+
+.header p{
+    font-weight: 700;
+}
+.headerTitle{
+    font-size: 1.5rem;
+    color: var(--color-dark-text-white);
+}
+.toggle{
+    width: 45px;
+    height: 20px;
+    background-image: var(--color-toggle-dark);
+    border-radius: 15px;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.toggle:hover{
+    cursor: pointer;
+}
+.toggle-ball{
+    width: calc(20px - 2px - 2px);
+    height: calc(20px - 2px - 2px);
+    border-radius: 50%;
+    background-color: var(--color-dark-bg);
+}
+.header .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cards{
+    margin-top: 50px;
+}
+.card{
+    background-color: var(--color-dark-card-bg);
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-header img{
+    margin-right: 5px;
+}
+.card-header p,
+.card-follower-updates p{
+    font-size: 0.7rem;
+}
+.card-followers{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.card-followers h1{
+    font-size: 3.5rem;
+    color: var(--color-dark-text-white);
+}
+.card-followers p{
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: 6px;
+    margin-top: -10px;
 }
