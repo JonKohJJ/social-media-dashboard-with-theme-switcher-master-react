@@ -30,6 +30,7 @@ body{
 
     --color-dark-bg: hsl(230, 17%, 14%);
     --color-dark-card-bg: hsl(228, 28%, 20%);
+    --color-dark-card-bg-hover: hsl(227, 23%, 24%);
     --color-dark-text-blue:hsl(228, 34%, 66%);
     --color-dark-text-white: hsl(0, 0%, 100%);
 
@@ -100,6 +101,10 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px 0;
+}
+.card:hover{
+    background-color: var(--color-dark-card-bg-hover);
+    cursor: pointer;
 }
 .card-header{
     display: flex;

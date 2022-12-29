@@ -14,6 +14,8 @@ Users should be able to:
 
 - Live Site URL: [https://jonkohjj.github.io/social-media-dashboard-with-theme-switcher-master-react/](https://jonkohjj.github.io/social-media-dashboard-with-theme-switcher-master-react/)
 
+- How to have images with url sources article found [here](https://create-react-app.dev/docs/using-the-public-folder/)
+
 ### Built with
 
 - Semantic HTML5 markup
