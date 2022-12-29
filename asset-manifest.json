@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/social-media-dashboard-with-theme-switcher-master-react/static/css/main.6447151f.css",
+    "main.css": "/social-media-dashboard-with-theme-switcher-master-react/static/css/main.cc5d8e4a.css",
     "main.js": "/social-media-dashboard-with-theme-switcher-master-react/static/js/main.96fff060.js",
     "index.html": "/social-media-dashboard-with-theme-switcher-master-react/index.html",
-    "main.6447151f.css.map": "/social-media-dashboard-with-theme-switcher-master-react/static/css/main.6447151f.css.map",
+    "main.cc5d8e4a.css.map": "/social-media-dashboard-with-theme-switcher-master-react/static/css/main.cc5d8e4a.css.map",
     "main.96fff060.js.map": "/social-media-dashboard-with-theme-switcher-master-react/static/js/main.96fff060.js.map"
   },
   "entrypoints": [
-    "static/css/main.6447151f.css",
+    "static/css/main.cc5d8e4a.css",
     "static/js/main.96fff060.js"
   ]
 }
